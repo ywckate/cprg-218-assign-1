@@ -1,18 +1,18 @@
 /* Tablet */
 @media (min-width: 768px) {
-  .grid-container {
+  .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  .grid-container > :nth-last-child(-n + 1) {
+  .card-container > :nth-last-child(-n + 1) {
     grid-column: 1 / -1; /* Make the last card full width */
   }
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
-  .grid-container {
+  .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -20,8 +20,8 @@
 }
 
 /* Mobile */
-@media (max-width: 300px) {
-  .grid-container {
+@media (max-width: 768px) {
+  .card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
