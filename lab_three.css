@@ -1,0 +1,5 @@
+iframe {
+  width: 100%; /* Adjust width as needed */
+  max-width: 800px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the video horizontally */
+}
