@@ -15,10 +15,6 @@
     width: calc(50% - 20px); /* Adjust width to leave space for margins */
     margin: 10px;
   }
-
-  .card:last-child {
-    width: calc(100% - 20px); /* Adjust width to leave space for margins */
-  }
 }
 
 /* Desktop */
